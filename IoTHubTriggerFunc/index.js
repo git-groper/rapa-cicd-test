@@ -15,6 +15,8 @@ module.exports = function (context, IoTHubMessages) {
     let jsonObj = JSON.stringify(jsonStr);
     console.log("jsonObj : ", jsonObj);
 
+    console.log("github action test");
+
     context.done();
 };
 
