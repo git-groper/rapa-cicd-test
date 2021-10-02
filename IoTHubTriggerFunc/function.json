@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "IoTHubMessages",
+      "direction": "in",
+      "eventHubName": "rapa-iothub",
+      "connection": "IothubConnectionStr",
+      "consumerGroup": "$Default"
+    }
+  ]
+}
